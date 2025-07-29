@@ -1,7 +1,7 @@
 
-# Frontend - MERN Stack Application
+# Frontend - Trackit Expense Tracker Application
 
-This is the frontend of the MERN stack application, built with **React.js** and **Vite**.
+This is the frontend of the Trackit Expense Tracker  application, built with **React.js** and **Vite**.
 
 ## 📦 Tech Stack
 

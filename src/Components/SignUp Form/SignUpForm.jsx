@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -16,15 +17,15 @@ export default function SignUpForm() {
       setError('Please fill all fields')
       return
     }
-    const formData = new FormData();
-    formData.append("password", password);
-    formData.append("email", email);
+    const payload={
+      email,password
+    }
     if (password !== confirmPassword) {
       setError("Passwords do not match!");
       return;
     }
     try {
-      const response = await axios.post(`${SERVER_URL}/signup`, formData, {
+      const response = await axios.post(`${SERVER_URL}/signup`, payload, {
         headers: {
           "Content-Type": "application/json",
         },

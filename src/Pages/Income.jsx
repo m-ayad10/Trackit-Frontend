@@ -1,5 +1,5 @@
 import { LineChart } from "@mui/x-charts/LineChart";
-import AllIncome from "../Components/All Income/All Income";
+import AllIncome from "../Components/All Income/AllIncome";
 import { useContext, useState } from "react";
 import { IncomeContext } from "../Context Api/IncomeContext";
 

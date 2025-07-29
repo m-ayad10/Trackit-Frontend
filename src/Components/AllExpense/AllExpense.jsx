@@ -3,12 +3,12 @@ import { ExpenseContext } from "../../Context Api/ExpenseContext";
 import { useContext, useState } from "react";
 import { UserContext } from "../../Context Api/UserContext";
 import axios from "axios";
-import EmojiPickerComponent from "../EmojiPicker/Emojipicker";
 import { Box, Modal } from "@mui/material";
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { HiX } from "react-icons/hi";
 import DatePicker from "react-datepicker";
 import Income from "../../Pages/Income";
+import EmojiPickerComponent from "../EmojiPicker/Emoji_Picker";
 export default function AllExpense() {
   const { expense, setExpense } = useContext(ExpenseContext);
   const style = {

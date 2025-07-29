@@ -1,5 +1,5 @@
 import { LineChart } from "@mui/x-charts";
-import AllExpense from "../Components/All Expense/AllExpense";
+import AllExpense from "../Components/AllExpense/AllExpense";
 import { ExpenseContext } from "../Context Api/ExpenseContext";
 import { useContext } from "react";
 

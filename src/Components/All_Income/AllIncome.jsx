@@ -11,7 +11,7 @@ import { UserContext } from "../../Context Api/UserContext";
 import axios from "axios";
 import { IncomeContext } from "../../Context Api/IncomeContext";
 import { RiDeleteBin6Line } from "react-icons/ri";
-import EmojiPickerComponent from "../EmojiPicker/Emojipicker";
+import EmojiPickerComponent from "../EmojiPicker/Emoji_Picker";
 
 export default function AllIncome() {
   const { income, setIncome } = useContext(IncomeContext);

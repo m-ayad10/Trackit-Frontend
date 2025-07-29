@@ -3,7 +3,7 @@ import { ExpenseContext } from "../../Context Api/ExpenseContext";
 import { useContext, useState } from "react";
 import { UserContext } from "../../Context Api/UserContext";
 import axios from "axios";
-import EmojiPickerComponent from "../Emoji Picker/Emojipicker";
+import EmojiPickerComponent from "../EmojiPicker/Emojipicker";
 import { Box, Modal } from "@mui/material";
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { HiX } from "react-icons/hi";

@@ -3,7 +3,6 @@ import "./style.css";
 import { useContext, useState } from "react";
 import { Box, Modal } from "@mui/material";
 import { HiX } from "react-icons/hi";
-import EmojiPickerComponent from "../Emoji Picker/Emojipicker";
 import DatePicker from "react-datepicker";
 
 import "react-datepicker/dist/react-datepicker.css";
@@ -12,6 +11,7 @@ import { UserContext } from "../../Context Api/UserContext";
 import axios from "axios";
 import { IncomeContext } from "../../Context Api/IncomeContext";
 import { RiDeleteBin6Line } from "react-icons/ri";
+import EmojiPickerComponent from "../EmojiPicker/Emojipicker";
 
 export default function AllIncome() {
   const { income, setIncome } = useContext(IncomeContext);

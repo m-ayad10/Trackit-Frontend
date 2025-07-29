@@ -1,0 +1,12 @@
+.emoji-picker_div{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+.emoji-picker_box{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    left: 0;
+}

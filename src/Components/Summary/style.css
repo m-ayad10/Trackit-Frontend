@@ -1,0 +1,29 @@
+
+.Dashboard-summary{
+    display: flex;
+    gap: 1%;
+    justify-content: space-between;
+}
+
+.Dashboard-summary-box{
+    display: flex;
+    align-items: center;
+    width: 32%;
+   background-color: #1a1717;
+   padding: 1.5rem;
+   gap: 8px;
+   border-radius: 8px;
+}
+.Dashboard-summary-box div{
+    display: flex;
+    flex-direction: column;
+}
+.Dashboard-summary *{
+    margin: 0;
+}
+
+.summary-icon{
+    font-size: 2.3rem;
+    padding: 4px;
+    border-radius: 50%;
+}

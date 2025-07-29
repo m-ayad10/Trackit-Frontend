@@ -1,0 +1,36 @@
+.loginForm-Container {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+}
+.loginForm-box {
+  /* background-color: rgb(99, 8, 99); */
+   background-color: #1a1717;
+
+  padding: 2rem;
+  width: 400px;
+  border-radius: 6px;
+}
+.loginForm-header {
+  font-weight: 400;
+}
+.loginForm-input {
+  outline: none;
+  color: #000;
+  padding: 4px;
+  margin-top: 5px;
+}
+
+.loginForm-Submit {
+  background-color: green;
+  margin-top: 13px;
+  padding: 6px;
+  margin-bottom: 4px;
+  border-radius: 8px;
+  border: none;
+}
+
+.otp-input{
+    color: #000;
+}

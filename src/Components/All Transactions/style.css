@@ -1,0 +1,71 @@
+.dashboard-transactions{
+    width: 100%;
+    display: flex;
+    gap: 2%;
+    margin-top: 2rem;
+}
+
+.dashboard-recent_transaction, .dashboard-transaction_overview{
+    width: 49%;
+    background-color: #1a1717;
+    padding: 1rem;
+    border-radius: 7px;
+}
+.recent-transaction-box{
+    height: 50vh;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: grey #000;
+}
+.recent-transaction-box::-webkit-scrollbar{
+    display: none;
+}
+.dashboard-recent_transaction h5{
+    font-weight: 400;
+}
+.transaction{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px 0 8px;
+    align-items: center;
+}
+.transaction p{
+    margin: 0;
+}
+.transaction div h6{
+    font-weight: 500;
+    margin: 0;
+}
+.transaction div p{
+    font-weight: 400;
+}
+.transaction-expense{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px;
+    border-radius: 2px;
+    background-color: rgba(254, 2, 2, 0.1);
+}
+.transaction-expense *{
+    color: red;
+}
+.transaction-income{
+     display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px;
+    border-radius: 2px;
+    background-color: rgb(14, 163, 14,0.1);
+}
+.transaction-income *{
+    color: green;
+}
+.dashboard-transaction_overview h5{
+    font-weight: 400;
+}
+
+/* #pie-chart-1{
+     width: 80%;
+    height: auto;
+} */

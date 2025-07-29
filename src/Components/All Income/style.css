@@ -1,0 +1,34 @@
+.all-income-container{
+    width: 100%;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    background-color: #1a1717;
+}
+.all-income-container div h4{
+    font-weight: 400;
+}
+.all-income-grid_container{
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: auto auto ;
+    column-gap: 1.5rem;
+    row-gap: 1rem;
+}
+.all-income-grid_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.all-income-grid_box *{
+    margin: 0;
+}
+.modal-input{
+    width: 100%;
+    padding: 5px;
+    color: black;
+    outline: none;
+}
+.cursor-p{
+    cursor: pointer;
+}

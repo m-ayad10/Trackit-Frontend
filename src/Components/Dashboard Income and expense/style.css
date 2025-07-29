@@ -1,0 +1,21 @@
+.dashboard-expense_income {
+  margin-top: 2rem;
+  display: flex;
+  width: 100%;
+  gap: 1%;
+}
+
+.dashboard-income-box,
+.dashboard-expense-box {
+  width: 49%;
+  background-color: #1a1717;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+
+.dashboard-income-box div h5,
+.dashboard-expense-box div h5{
+    margin: 0;
+    font-weight: 400;
+}
